@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ernestoledesma1/Documents/workspaceAndroid/CardioECG2/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/Users/ernestoledesma1/Documents/workspaceAndroid/CardioECG2/app/build/intermediates/pre-dexed/debug/classes-f9f175879218b0332b82ca6ba725be6a55efd5be.jar" />
+    </item>
+    <item
+        jar="/Users/ernestoledesma1/Documents/workspaceAndroid/CardioECG2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/ernestoledesma1/Documents/workspaceAndroid/CardioECG2/app/build/intermediates/pre-dexed/debug/classes-f92cc586ce9fee574bb41c0f5c11a83015f618d5.jar" />
+    </item>
+    <item
+        jar="/Developers/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/ernestoledesma1/Documents/workspaceAndroid/CardioECG2/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-94cec9c253f37c53fb7017c4f64caa1f6d06599e.jar" />
+    </item>
+    <item
+        jar="/Users/ernestoledesma1/Documents/workspaceAndroid/CardioECG2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/ernestoledesma1/Documents/workspaceAndroid/CardioECG2/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-326ffe22962ba0e0a3423c79b495f43dbc07f9af.jar" />
+    </item>
+    <item
+        jar="/Users/ernestoledesma1/Documents/workspaceAndroid/CardioECG2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/ernestoledesma1/Documents/workspaceAndroid/CardioECG2/app/build/intermediates/pre-dexed/debug/classes-21468f4b51d88d3a7c715b0bb35e5009e46add7f.jar" />
+    </item>
+
+</items>

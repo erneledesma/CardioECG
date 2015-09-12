@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+
+    <color name="text_color">#AD1457</color>
+
+</resources>
+
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- A CardView that contains a TextView -->
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:id="@+id/card_view"
+    android:clickable="true"
+    android:layout_margin="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="2dp">
+
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/avatar_control"
+        android:src="@drawable/avatar"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/nombre_paciente"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/avatar_control" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/apellido_paciente"
+        android:layout_below="@+id/nombre_paciente"
+        android:layout_toEndOf="@+id/avatar_control" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/ritmo_cardiaco"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/apellido_paciente"
+        android:layout_toEndOf="@+id/avatar_control" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/ritmo_cardiaco"
+        android:layout_toEndOf="@+id/avatar_control"
+        android:layout_marginTop="29dp" />
+
+    <DatePicker
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/datePicker"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/ritmo_cardiaco"
+        android:layout_toEndOf="@+id/textClock" />
+
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
